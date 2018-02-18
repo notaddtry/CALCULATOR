@@ -1,9 +1,9 @@
 #include"Calculator.h"
 int main() {
 	double a, b, c, d, n, t, f;
-	cout << "Enter the numbers : a, b - this is x; c, d is y, n is a prime number(if you want to multiply a vector by a prime number, then enter b, d = 0)" << endl;
+	cout << "Введите значения : a, b - это x; c, d - это y, n это простое число(Если хотите умножить вектор на простое число,введите b, d = 0)" << endl;
 	cin >> a >> b >> c >> d >> n;
-	cout << "Choose operation: +, -, *,$" << endl;
+	cout << "Выберите операци.: +, -, *,$" << endl;
 	char op = ' ';
 	cin >> op;
 	switch(op) {
