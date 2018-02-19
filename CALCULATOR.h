@@ -1,6 +1,7 @@
 #ifndef Calculator_h
 #define Calculator_h
 #include <iostream>
+#include <stdio.h>
 using namespace std;
 
 void printresult(double r);
@@ -12,3 +13,4 @@ double multiplyx(double a,  double n);
 double multiplyy(double c, double n);
 double stray(double a, double b, double c, double d);
 #endif
+
